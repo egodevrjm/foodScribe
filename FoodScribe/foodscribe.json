@@ -1,0 +1,94 @@
+[
+  {
+    "id": "classic-apple-pie",
+    "name": "Classic Apple Pie",
+    "description": "A delicious and traditional apple pie recipe that everyone will love.",
+    "servings": 8,
+    "prepTime": "30 minutes",
+    "cookTime": "45 minutes",
+    "totalTime": "1 hour 15 minutes",
+    "ingredients": [
+      {
+        "item": "all-purpose flour",
+        "amount": 2.5,
+        "unit": "cups"
+      },
+      {
+        "item": "unsalted butter",
+        "amount": 1,
+        "unit": "cup"
+      },
+      {
+        "item": "salt",
+        "amount": 1,
+        "unit": "teaspoon"
+      },
+      {
+        "item": "ice water",
+        "amount": 0.5,
+        "unit": "cup"
+      },
+      {
+        "item": "Granny Smith apples",
+        "amount": 6,
+        "unit": "medium"
+      },
+      {
+        "item": "granulated sugar",
+        "amount": 0.75,
+        "unit": "cup"
+      },
+      {
+        "item": "ground cinnamon",
+        "amount": 1,
+        "unit": "teaspoon"
+      },
+      {
+        "item": "lemon juice",
+        "amount": 1,
+        "unit": "tablespoon"
+      }
+    ],
+    "instructions": [
+      "In a large bowl, mix 2 cups of flour and salt.",
+      "Cut in the cold butter until the mixture resembles coarse crumbs.",
+      "Gradually add ice water, mixing until the dough holds together.",
+      "Divide the dough in half, shape into discs, and refrigerate for 30 minutes.",
+      "Peel, core, and slice the apples. Mix with sugar, remaining flour, cinnamon, and lemon juice.",
+      "Roll out one dough disc and place it in a 9-inch pie dish. Trim the edges.",
+      "Fill with the apple mixture.",
+      "Roll out the second dough disc and place it on top. Trim and seal the edges.",
+      "Cut slits in the top crust for ventilation.",
+      "Bake at 425°F for 45 minutes or until the crust is golden brown."
+    ],
+    "notes": "Serve warm with a scoop of vanilla ice cream.",
+    "tags": [
+      "dessert",
+      "pie",
+      "apple",
+      "baking"
+    ],
+    "image": "classic-apple-pie.png",
+    "nutrition": {
+      "calories": 450,
+      "fat": 24,
+      "carbs": 58,
+      "protein": 4
+    },
+    "author": "Grandma's Kitchen",
+    "publishedDate": "2023-06-05",
+    "rating": 4.8,
+    "reviews": [
+      {
+        "user": "Sarah Johnson",
+        "rating": 5,
+        "comment": "This is the best apple pie recipe I've ever tried!"
+      },
+      {
+        "user": "David Lee",
+        "rating": 4,
+        "comment": "Delicious pie, just like my grandma used to make."
+      }
+    ]
+  }
+]
