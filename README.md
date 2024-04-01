@@ -7,5 +7,5 @@ Recipe detail view includes a timer (not working), favorite functionality (parti
 - Fix favorites (make persistent)
 - Add 'add a recipe' button (or at least make the script to add a recipe work)
 
-![Screenshot of foodScribe](https://drive.google.com/file/d/1H1zsWIA0BsqNER_UuDlzEFr4f8KQXzVt/view?usp=sharing)
+![Screenshot of foodScribe]([https://drive.google.com/file/d/1H1zsWIA0BsqNER_UuDlzEFr4f8KQXzVt/view?usp=sharing](https://github.com/egodevrjm/foodScribe/blob/main/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202024-04-01%20at%2012.22.47.png?raw=true))
 ![Screenshot of foodScribe](https://drive.google.com/file/d/1cQdQE9c3QXt3hY4kbI09wjeXScWL6OhD/view?usp=drive_link)
