@@ -1,94 +1,1876 @@
 [
-  {
-    "id": "classic-apple-pie",
-    "name": "Classic Apple Pie",
-    "description": "A delicious and traditional apple pie recipe that everyone will love.",
-    "servings": 8,
-    "prepTime": "30 minutes",
-    "cookTime": "45 minutes",
-    "totalTime": "1 hour 15 minutes",
-    "ingredients": [
-      {
-        "item": "all-purpose flour",
-        "amount": 2.5,
-        "unit": "cups"
-      },
-      {
-        "item": "unsalted butter",
-        "amount": 1,
-        "unit": "cup"
-      },
-      {
-        "item": "salt",
-        "amount": 1,
-        "unit": "teaspoon"
-      },
-      {
-        "item": "ice water",
-        "amount": 0.5,
-        "unit": "cup"
-      },
-      {
-        "item": "Granny Smith apples",
-        "amount": 6,
-        "unit": "medium"
-      },
-      {
-        "item": "granulated sugar",
-        "amount": 0.75,
-        "unit": "cup"
-      },
-      {
-        "item": "ground cinnamon",
-        "amount": 1,
-        "unit": "teaspoon"
-      },
-      {
-        "item": "lemon juice",
-        "amount": 1,
-        "unit": "tablespoon"
-      }
-    ],
-    "instructions": [
-      "In a large bowl, mix 2 cups of flour and salt.",
-      "Cut in the cold butter until the mixture resembles coarse crumbs.",
-      "Gradually add ice water, mixing until the dough holds together.",
-      "Divide the dough in half, shape into discs, and refrigerate for 30 minutes.",
-      "Peel, core, and slice the apples. Mix with sugar, remaining flour, cinnamon, and lemon juice.",
-      "Roll out one dough disc and place it in a 9-inch pie dish. Trim the edges.",
-      "Fill with the apple mixture.",
-      "Roll out the second dough disc and place it on top. Trim and seal the edges.",
-      "Cut slits in the top crust for ventilation.",
-      "Bake at 425°F for 45 minutes or until the crust is golden brown."
-    ],
-    "notes": "Serve warm with a scoop of vanilla ice cream.",
-    "tags": [
-      "dessert",
-      "pie",
-      "apple",
-      "baking"
-    ],
-    "image": "classic-apple-pie.png",
-    "nutrition": {
-      "calories": 450,
-      "fat": 24,
-      "carbs": 58,
-      "protein": 4
+    {
+        "id": "classic-apple-pie",
+        "name": "Classic Apple Pie",
+        "description": "A delicious and traditional apple pie recipe that everyone will love.",
+        "servings": 8,
+        "prepTime": "30 minutes",
+        "cookTime": "45 minutes",
+        "totalTime": "1 hour 15 minutes",
+        "ingredients": [
+            {
+                "item": "all-purpose flour",
+                "amount": 2.5,
+                "unit": "cups"
+            },
+            {
+                "item": "unsalted butter",
+                "amount": 1,
+                "unit": "cup"
+            },
+            {
+                "item": "salt",
+                "amount": 1,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "ice water",
+                "amount": 0.5,
+                "unit": "cup"
+            },
+            {
+                "item": "Granny Smith apples",
+                "amount": 6,
+                "unit": "medium"
+            },
+            {
+                "item": "granulated sugar",
+                "amount": 0.75,
+                "unit": "cup"
+            },
+            {
+                "item": "ground cinnamon",
+                "amount": 1,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "lemon juice",
+                "amount": 1,
+                "unit": "tablespoon"
+            }
+        ],
+        "instructions": [
+            "In a large bowl, mix 2 cups of flour and salt.",
+            "Cut in the cold butter until the mixture resembles coarse crumbs.",
+            "Gradually add ice water, mixing until the dough holds together.",
+            "Divide the dough in half, shape into discs, and refrigerate for 30 minutes.",
+            "Peel, core, and slice the apples. Mix with sugar, remaining flour, cinnamon, and lemon juice.",
+            "Roll out one dough disc and place it in a 9-inch pie dish. Trim the edges.",
+            "Fill with the apple mixture.",
+            "Roll out the second dough disc and place it on top. Trim and seal the edges.",
+            "Cut slits in the top crust for ventilation.",
+            "Bake at 425°F for 45 minutes or until the crust is golden brown."
+        ],
+        "notes": "Serve warm with a scoop of vanilla ice cream.",
+        "tags": [
+            "dessert",
+            "pie",
+            "apple",
+            "baking"
+        ],
+        "category": "Desserts",
+        "image": "classic-apple-pie.png",
+        "nutrition": {
+            "calories": 450,
+            "fat": 24,
+            "carbs": 58,
+            "protein": 4
+        },
+        "publishedDate": "2023-06-05",
+        "rating": 4.8
     },
-    "author": "Grandma's Kitchen",
-    "publishedDate": "2023-06-05",
-    "rating": 4.8,
-    "reviews": [
+    {
+        "id": "spaghetti-bolognese",
+        "name": "Spaghetti Bolognese",
+        "description": "A classic Italian pasta dish with a rich and meaty tomato sauce.",
+        "servings": 4,
+        "prepTime": "15 minutes",
+        "cookTime": "1 hour",
+        "totalTime": "1 hour 15 minutes",
+        "ingredients": [
+            {
+                "item": "spaghetti",
+                "amount": 400,
+                "unit": "grams"
+            },
+            {
+                "item": "ground beef",
+                "amount": 500,
+                "unit": "grams"
+            },
+            {
+                "item": "onion",
+                "amount": 1,
+                "unit": "medium"
+            },
+            {
+                "item": "garlic cloves",
+                "amount": 2,
+                "unit": "cloves"
+            },
+            {
+                "item": "canned crushed tomatoes",
+                "amount": 400,
+                "unit": "grams"
+            },
+            {
+                "item": "tomato paste",
+                "amount": 2,
+                "unit": "tablespoons"
+            },
+            {
+                "item": "beef broth",
+                "amount": 1,
+                "unit": "cup"
+            },
+            {
+                "item": "dried oregano",
+                "amount": 1,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "salt",
+                "amount": 1,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "black pepper",
+                "amount": 0.5,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "grated Parmesan cheese",
+                "amount": 0.5,
+                "unit": "cup"
+            }
+        ],
+        "instructions": [
+            "Cook spaghetti according to package instructions until al dente.",
+            "In a large skillet, cook ground beef over medium heat until browned.",
+            "Add onion and garlic, and cook until softened.",
+            "Stir in crushed tomatoes, tomato paste, beef broth, oregano, salt, and pepper.",
+            "Simmer the sauce for about 30 minutes, stirring occasionally.",
+            "Serve the bolognese sauce over cooked spaghetti.",
+            "Sprinkle with grated Parmesan cheese."
+        ],
+        "notes": "You can also add vegetables like carrots and celery to the sauce for extra flavor.",
+        "tags": [
+            "pasta",
+            "Italian",
+            "beef",
+            "dinner"
+        ],
+        "category": "Main Courses",
+        "image": "spaghetti-bolognese.png",
+        "nutrition": {
+            "calories": 600,
+            "fat": 20,
+            "carbs": 75,
+            "protein": 35
+        },
+        "publishedDate": "2023-06-08",
+        "rating": 4.6
+    },
+    {
+        "id": "chocolate-chip-cookies",
+        "name": "Chocolate Chip Cookies",
+        "description": "Soft and chewy chocolate chip cookies that are perfect for any occasion.",
+        "servings": 24,
+        "prepTime": "15 minutes",
+        "cookTime": "12 minutes",
+        "totalTime": "27 minutes",
+        "ingredients": [
+            {
+                "item": "all-purpose flour",
+                "amount": 2.25,
+                "unit": "cups"
+            },
+            {
+                "item": "baking soda",
+                "amount": 1,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "salt",
+                "amount": 1,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "unsalted butter",
+                "amount": 1,
+                "unit": "cup"
+            },
+            {
+                "item": "granulated sugar",
+                "amount": 0.75,
+                "unit": "cup"
+            },
+            {
+                "item": "brown sugar",
+                "amount": 0.75,
+                "unit": "cup"
+            },
+            {
+                "item": "vanilla extract",
+                "amount": 1,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "large eggs",
+                "amount": 2,
+                "unit": null
+            },
+            {
+                "item": "semisweet chocolate chips",
+                "amount": 2,
+                "unit": "cups"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 375°F (190°C).",
+            "In a bowl, whisk together flour, baking soda, and salt.",
+            "In a separate large bowl, cream together butter, granulated sugar, brown sugar, and vanilla.",
+            "Beat in eggs one at a time until well combined.",
+            "Gradually mix in the flour mixture until just combined.",
+            "Stir in chocolate chips.",
+            "Drop rounded tablespoons of dough onto ungreased baking sheets.",
+            "Bake for 9-11 minutes or until edges are golden brown.",
+            "Cool on baking sheets for a few minutes before transferring to wire racks."
+        ],
+        "notes": "For a softer cookie, bake for a shorter time. For a crispier cookie, bake for a bit longer.",
+        "tags": [
+            "dessert",
+            "cookies",
+            "chocolate",
+            "baking"
+        ],
+        "category": "Desserts",
+        "image": "chocolate-chip-cookies.png",
+        "nutrition": {
+            "calories": 200,
+            "fat": 10,
+            "carbs": 26,
+            "protein": 2
+        },
+        "publishedDate": "2023-06-10",
+        "rating": 4.9
+    },
+    {
+        "id": "caesar-salad",
+        "name": "Caesar Salad",
+        "description": "A classic Caesar salad with crisp romaine lettuce, crunchy croutons, and a tangy dressing.",
+        "servings": 4,
+        "prepTime": "15 minutes",
+        "cookTime": "0 minutes",
+        "totalTime": "15 minutes",
+        "ingredients": [
+            {
+                "item": "romaine lettuce",
+                "amount": 1,
+                "unit": "head"
+            },
+            {
+                "item": "garlic clove",
+                "amount": 1,
+                "unit": "clove"
+            },
+            {
+                "item": "anchovy fillets",
+                "amount": 2,
+                "unit": "fillets"
+            },
+            {
+                "item": "lemon juice",
+                "amount": 2,
+                "unit": "tablespoons"
+            },
+            {
+                "item": "Dijon mustard",
+                "amount": 1,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "Worcestershire sauce",
+                "amount": 1,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "olive oil",
+                "amount": 0.5,
+                "unit": "cup"
+            },
+            {
+                "item": "grated Parmesan cheese",
+                "amount": 0.5,
+                "unit": "cup"
+            },
+            {
+                "item": "croutons",
+                "amount": 1,
+                "unit": "cup"
+            },
+            {
+                "item": "salt",
+                "amount": 0.25,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "black pepper",
+                "amount": 0.25,
+                "unit": "teaspoon"
+            }
+        ],
+        "instructions": [
+            "Tear romaine lettuce into bite-sized pieces and place in a large bowl.",
+            "In a blender, blend garlic, anchovies, lemon juice, Dijon mustard, and Worcestershire sauce.",
+            "Gradually add olive oil while blending until emulsified.",
+            "Pour the dressing over the lettuce and toss to coat.",
+            "Add Parmesan cheese, croutons, salt, and pepper, and toss again.",
+            "Serve immediately."
+        ],
+        "notes": "You can add grilled chicken or shrimp to make it a main course salad.",
+        "tags": [
+            "salad",
+            "lunch",
+            "side dish",
+            "vegetarian"
+        ],
+        "category": "Salads",
+        "image": "caesar-salad.png",
+        "nutrition": {
+            "calories": 300,
+            "fat": 25,
+            "carbs": 12,
+            "protein": 8
+        },
+        "publishedDate": "2023-06-12",
+        "rating": 4.7
+    },
+    {
+        "id": "grilled-salmon",
+        "name": "Grilled Salmon",
+        "description": "A simple and healthy grilled salmon recipe with a lemon-herb marinade.",
+        "servings": 4,
+        "prepTime": "10 minutes",
+        "cookTime": "15 minutes",
+        "totalTime": "25 minutes",
+        "ingredients": [
+            {
+                "item": "salmon fillets",
+                "amount": 4,
+                "unit": null
+            },
+            {
+                "item": "lemon juice",
+                "amount": 2,
+                "unit": "tablespoons"
+            },
+            {
+                "item": "olive oil",
+                "amount": 2,
+                "unit": "tablespoons"
+            },
+            {
+                "item": "garlic",
+                "amount": 2,
+                "unit": "cloves"
+            },
+            {
+                "item": "dried oregano",
+                "amount": 1,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "salt",
+                "amount": 0.5,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "black pepper",
+                "amount": 0.25,
+                "unit": "teaspoon"
+            }
+        ],
+        "instructions": [
+            "In a small bowl, whisk together lemon juice, olive oil, minced garlic, oregano, salt, and pepper.",
+            "Place salmon fillets in a shallow dish and pour the marinade over them. Let marinate for 15-20 minutes.",
+            "Preheat the grill to medium-high heat.",
+            "Remove salmon from the marinade and place it on the grill. Cook for 6-8 minutes per side, or until the fish flakes easily with a fork.",
+            "Serve hot with lemon wedges and your favorite side dishes."
+        ],
+        "notes": "You can also bake the salmon in the oven at 400°F (200°C) for 12-15 minutes.",
+        "tags": [
+            "seafood",
+            "healthy",
+            "grilling",
+            "dinner"
+        ],
+        "category": "Main Courses",
+        "image": "grilled-salmon.png",
+        "nutrition": {
+            "calories": 250,
+            "fat": 15,
+            "carbs": 2,
+            "protein": 28
+        },
+        "publishedDate": "2023-06-15",
+        "rating": 4.7
+    },
+    {
+        "id": "caprese-salad",
+        "name": "Caprese Salad",
+        "description": "A classic Italian salad with fresh mozzarella, tomatoes, and basil.",
+        "servings": 4,
+        "prepTime": "10 minutes",
+        "cookTime": "0 minutes",
+        "totalTime": "10 minutes",
+        "ingredients": [
+            {
+                "item": "fresh mozzarella",
+                "amount": 8,
+                "unit": "ounces"
+            },
+            {
+                "item": "ripe tomatoes",
+                "amount": 2,
+                "unit": "large"
+            },
+            {
+                "item": "fresh basil leaves",
+                "amount": 1,
+                "unit": "cup"
+            },
+            {
+                "item": "extra-virgin olive oil",
+                "amount": 2,
+                "unit": "tablespoons"
+            },
+            {
+                "item": "balsamic vinegar",
+                "amount": 1,
+                "unit": "tablespoon"
+            },
+            {
+                "item": "salt",
+                "amount": 0.25,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "black pepper",
+                "amount": 0.25,
+                "unit": "teaspoon"
+            }
+        ],
+        "instructions": [
+            "Slice the mozzarella and tomatoes into 1/4-inch thick slices.",
+            "Arrange the mozzarella and tomato slices on a serving platter, alternating between them.",
+            "Tuck the basil leaves between the mozzarella and tomato slices.",
+            "Drizzle the olive oil and balsamic vinegar over the salad.",
+            "Season with salt and pepper to taste.",
+            "Serve immediately and enjoy!"
+        ],
+        "notes": "Use the freshest ingredients for the best flavor.",
+        "tags": [
+            "salad",
+            "vegetarian",
+            "Italian",
+            "side dish"
+        ],
+        "category": "Salads",
+        "image": "caprese-salad.png",
+        "nutrition": {
+            "calories": 200,
+            "fat": 16,
+            "carbs": 5,
+            "protein": 10
+        },
+        "publishedDate": "2023-06-18",
+        "rating": 4.9
+    },
+    {
+        "id": "guacamole",
+        "name": "Guacamole",
+        "description": "A delicious and creamy avocado dip perfect for parties and gatherings.",
+        "servings": 6,
+        "prepTime": "10 minutes",
+        "cookTime": "0 minutes",
+        "totalTime": "10 minutes",
+        "ingredients": [
+            {
+                "item": "ripe avocados",
+                "amount": 3,
+                "unit": null
+            },
+            {
+                "item": "lime juice",
+                "amount": 2,
+                "unit": "tablespoons"
+            },
+            {
+                "item": "diced red onion",
+                "amount": 0.25,
+                "unit": "cup"
+            },
+            {
+                "item": "chopped cilantro",
+                "amount": 2,
+                "unit": "tablespoons"
+            },
+            {
+                "item": "diced jalapeño",
+                "amount": 1,
+                "unit": null
+            },
+            {
+                "item": "salt",
+                "amount": 0.5,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "black pepper",
+                "amount": 0.25,
+                "unit": "teaspoon"
+            }
+        ],
+        "instructions": [
+            "Cut the avocados in half, remove the pits, and scoop the flesh into a medium bowl.",
+            "Mash the avocado with a fork until it reaches your desired consistency.",
+            "Stir in the lime juice, red onion, cilantro, jalapeño, salt, and pepper.",
+            "Taste and adjust the seasonings as needed.",
+            "Serve with tortilla chips or vegetable sticks."
+        ],
+        "notes": "For a smoother guacamole, use a food processor or blender to mix the ingredients.",
+        "tags": [
+            "dip",
+            "appetizer",
+            "Mexican",
+            "vegan"
+        ],
+        "category": "Appetizers",
+        "image": "guacamole.png",
+        "nutrition": {
+            "calories": 150,
+            "fat": 12,
+            "carbs": 8,
+            "protein": 2
+        },
+        "publishedDate": "2023-06-20",
+        "rating": 4.8
+    },
+    {
+        "id": "banana-bread",
+        "name": "Banana Bread",
+        "description": "A moist and delicious banana bread that's perfect for breakfast or as a snack.",
+        "servings": 10,
+        "prepTime": "15 minutes",
+        "cookTime": "1 hour",
+        "totalTime": "1 hour 15 minutes",
+        "ingredients": [
+            {
+                "item": "ripe bananas",
+                "amount": 3,
+                "unit": null
+            },
+            {
+                "item": "unsalted butter",
+                "amount": 0.5,
+                "unit": "cup"
+            },
+            {
+                "item": "granulated sugar",
+                "amount": 0.75,
+                "unit": "cup"
+            },
+            {
+                "item": "large egg",
+                "amount": 1,
+                "unit": null
+            },
+            {
+                "item": "vanilla extract",
+                "amount": 1,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "all-purpose flour",
+                "amount": 1.5,
+                "unit": "cups"
+            },
+            {
+                "item": "baking soda",
+                "amount": 1,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "salt",
+                "amount": 0.5,
+                "unit": "teaspoon"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 350°F (175°C) and grease a 9x5-inch loaf pan.",
+            "In a large bowl, mash the bananas with a fork until smooth.",
+            "Add the melted butter, sugar, egg, and vanilla extract to the mashed bananas and mix well.",
+            "In a separate bowl, whisk together the flour, baking soda, and salt.",
+            "Add the dry ingredients to the wet ingredients and mix until just combined.",
+            "Pour the batter into the prepared loaf pan and smooth the top with a spatula.",
+            "Bake for 50-60 minutes, or until a toothpick inserted into the center comes out clean.",
+            "Let the bread cool in the pan for 10 minutes, then remove it from the pan and cool completely on a wire rack."
+        ],
+        "notes": "For added texture and flavor, you can mix in 1/2 cup of chopped nuts or chocolate chips.",
+        "tags": [
+            "bread",
+            "breakfast",
+            "snack",
+            "baking"
+        ],
+        "category": "Baking",
+        "image": "banana-bread.png",
+        "nutrition": {
+            "calories": 250,
+            "fat": 10,
+            "carbs": 40,
+            "protein": 3
+        },
+        "publishedDate": "2023-06-22",
+        "rating": 4.6
+    },
+    {
+        "id": "beef-stir-fry",
+        "name": "Beef Stir-Fry",
+        "description": "A quick and easy beef stir-fry with colorful vegetables and a savory sauce.",
+        "servings": 4,
+        "prepTime": "15 minutes",
+        "cookTime": "10 minutes",
+        "totalTime": "25 minutes",
+        "ingredients": [
+            {
+                "item": "flank steak",
+                "amount": 1,
+                "unit": "pound"
+            },
+            {
+                "item": "broccoli florets",
+                "amount": 2,
+                "unit": "cups"
+            },
+            {
+                "item": "sliced bell peppers",
+                "amount": 1,
+                "unit": "cup"
+            },
+            {
+                "item": "sliced carrots",
+                "amount": 1,
+                "unit": "cup"
+            },
+            {
+                "item": "sliced onion",
+                "amount": 1,
+                "unit": null
+            },
+            {
+                "item": "minced garlic",
+                "amount": 2,
+                "unit": "cloves"
+            },
+            {
+                "item": "soy sauce",
+                "amount": 0.25,
+                "unit": "cup"
+            },
+            {
+                "item": "cornstarch",
+                "amount": 1,
+                "unit": "tablespoon"
+            },
+            {
+                "item": "water",
+                "amount": 0.25,
+                "unit": "cup"
+            },
+            {
+                "item": "vegetable oil",
+                "amount": 2,
+                "unit": "tablespoons"
+            }
+        ],
+        "instructions": [
+            "Slice the flank steak against the grain into thin strips.",
+            "In a small bowl, whisk together the soy sauce, cornstarch, and water. Set aside.",
+            "Heat the vegetable oil in a large skillet or wok over medium-high heat.",
+            "Add the sliced beef to the skillet and stir-fry for 2-3 minutes, or until browned. Remove the beef from the skillet and set aside.",
+            "In the same skillet, add the broccoli, bell peppers, carrots, onion, and garlic. Stir-fry for 3-4 minutes, or until the vegetables are crisp-tender.",
+            "Return the beef to the skillet and pour in the soy sauce mixture. Stir-fry for an additional 1-2 minutes, or until the sauce has thickened and the beef is cooked through.",
+            "Serve hot with steamed rice or noodles."
+        ],
+        "notes": "You can customize the vegetables based on your preferences or what you have on hand.",
+        "tags": [
+            "beef",
+            "stir-fry",
+            "Asian",
+            "dinner"
+        ],
+        "category": "Main Courses",
+        "image": "beef-stir-fry.png",
+        "nutrition": {
+            "calories": 300,
+            "fat": 12,
+            "carbs": 15,
+            "protein": 32
+        },
+        "publishedDate": "2023-06-24",
+        "rating": 4.5
+    },
+    {
+        "id": "blueberry-muffins",
+        "name": "Blueberry Muffins",
+        "description": "Soft and fluffy muffins bursting with fresh blueberries.",
+        "servings": 12,
+        "prepTime": "10 minutes",
+        "cookTime": "25 minutes",
+        "totalTime": "35 minutes",
+        "ingredients": [
+            {
+                "item": "all-purpose flour",
+                "amount": 2,
+                "unit": "cups"
+            },
+            {
+                "item": "granulated sugar",
+                "amount": 0.75,
+                "unit": "cup"
+            },
+            {
+                "item": "baking powder",
+                "amount": 2,
+                "unit": "teaspoons"
+            },
+            {
+                "item": "salt",
+                "amount": 0.5,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "large eggs",
+                "amount": 2,
+                "unit": null
+            },
+            {
+                "item": "milk",
+                "amount": 0.5,
+                "unit": "cup"
+            },
+            {
+                "item": "unsalted butter, melted",
+                "amount": 0.5,
+                "unit": "cup"
+            },
+            {
+                "item": "vanilla extract",
+                "amount": 1,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "fresh blueberries",
+                "amount": 2,
+                "unit": "cups"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 375°F (190°C) and line a 12-cup muffin tin with paper liners.",
+            "In a large bowl, whisk together the flour, sugar, baking powder, and salt.",
+            "In a separate bowl, whisk together the eggs, milk, melted butter, and vanilla extract.",
+            "Pour the wet ingredients into the dry ingredients and mix until just combined.",
+            "Gently fold in the blueberries.",
+            "Divide the batter evenly among the muffin cups.",
+            "Bake for 20-25 minutes, or until a toothpick inserted into the center of a muffin comes out clean.",
+            "Let the muffins cool in the tin for 5 minutes, then transfer them to a wire rack to cool completely."
+        ],
+        "notes": "You can use frozen blueberries instead of fresh ones. Do not thaw them before adding to the batter.",
+        "tags": [
+            "muffins",
+            "breakfast",
+            "snack",
+            "baking"
+        ],
+        "category": "Baking",
+        "image": "blueberry-muffins.png",
+        "nutrition": {
+            "calories": 220,
+            "fat": 9,
+            "carbs": 32,
+            "protein": 4
+        },
+        "publishedDate": "2023-06-24",
+        "rating": 4.8
+    },
+    {
+        "id": "caprese-pasta-salad",
+        "name": "Caprese Pasta Salad",
+        "description": "A refreshing pasta salad with tomatoes, mozzarella, and basil, dressed in a balsamic vinaigrette.",
+        "servings": 6,
+        "prepTime": "15 minutes",
+        "cookTime": "10 minutes",
+        "totalTime": "25 minutes",
+        "ingredients": [
+            {
+                "item": "pasta (penne or rotini)",
+                "amount": 8,
+                "unit": "ounces"
+            },
+            {
+                "item": "cherry tomatoes, halved",
+                "amount": 2,
+                "unit": "cups"
+            },
+            {
+                "item": "fresh mozzarella, cubed",
+                "amount": 8,
+                "unit": "ounces"
+            },
+            {
+                "item": "fresh basil leaves, chopped",
+                "amount": 0.5,
+                "unit": "cup"
+            },
+            {
+                "item": "olive oil",
+                "amount": 0.25,
+                "unit": "cup"
+            },
+            {
+                "item": "balsamic vinegar",
+                "amount": 2,
+                "unit": "tablespoons"
+            },
+            {
+                "item": "garlic, minced",
+                "amount": 2,
+                "unit": "cloves"
+            },
+            {
+                "item": "salt",
+                "amount": 0.5,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "black pepper",
+                "amount": 0.25,
+                "unit": "teaspoon"
+            }
+        ],
+        "instructions": [
+            "Cook the pasta according to package instructions until al dente. Drain and rinse with cold water.",
+            "In a large bowl, combine the cooked pasta, cherry tomatoes, mozzarella, and basil.",
+            "In a small bowl, whisk together the olive oil, balsamic vinegar, minced garlic, salt, and pepper.",
+            "Pour the dressing over the pasta salad and toss to coat evenly.",
+            "Chill the salad in the refrigerator for at least 30 minutes before serving."
+        ],
+        "notes": "You can add other ingredients like sliced red onions or pine nuts for extra flavor and crunch.",
+        "tags": [
+            "pasta",
+            "salad",
+            "vegetarian",
+            "summer"
+        ],
+        "category": "Salads",
+        "image": "caprese-pasta-salad.png",
+        "nutrition": {
+            "calories": 350,
+            "fat": 20,
+            "carbs": 28,
+            "protein": 14
+        },
+        "publishedDate": "2023-06-26",
+        "rating": 4.7
+    },
+    {
+        "id": "chicken-fajitas",
+        "name": "Chicken Fajitas",
+        "description": "Sizzling hot chicken fajitas with colorful bell peppers and onions, perfect for a quick and easy dinner.",
+        "servings": 4,
+        "prepTime": "10 minutes",
+        "cookTime": "15 minutes",
+        "totalTime": "25 minutes",
+        "ingredients": [
+            {
+                "item": "boneless, skinless chicken breasts, sliced",
+                "amount": 1,
+                "unit": "pound"
+            },
+            {
+                "item": "bell peppers (red, green, or yellow), sliced",
+                "amount": 3,
+                "unit": null
+            },
+            {
+                "item": "onion, sliced",
+                "amount": 1,
+                "unit": null
+            },
+            {
+                "item": "olive oil",
+                "amount": 2,
+                "unit": "tablespoons"
+            },
+            {
+                "item": "chili powder",
+                "amount": 1,
+                "unit": "tablespoon"
+            },
+            {
+                "item": "ground cumin",
+                "amount": 1,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "garlic powder",
+                "amount": 1,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "salt",
+                "amount": 0.5,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "black pepper",
+                "amount": 0.25,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "flour tortillas",
+                "amount": 8,
+                "unit": null
+            }
+        ],
+        "instructions": [
+            "In a large skillet, heat the olive oil over medium-high heat.",
+            "Add the sliced chicken, bell peppers, and onion to the skillet.",
+            "Sprinkle the chili powder, cumin, garlic powder, salt, and pepper over the chicken and vegetables.",
+            "Stir-fry the mixture until the chicken is cooked through and the vegetables are tender, about 8-10 minutes.",
+            "Warm the flour tortillas in the microwave or on a griddle.",
+            "Serve the chicken and vegetable mixture on the warm tortillas, and let everyone assemble their own fajitas."
+        ],
+        "notes": "Serve with optional toppings like salsa, guacamole, sour cream, and shredded cheese.",
+        "tags": [
+            "chicken",
+            "mexican",
+            "dinner",
+            "quick"
+        ],
+        "category": "Main Courses",
+        "image": "chicken-fajitas.png",
+        "nutrition": {
+            "calories": 400,
+            "fat": 15,
+            "carbs": 35,
+            "protein": 30
+        },
+        "publishedDate": "2023-06-28",
+        "rating": 4.9
+    },
+    {
+        "id": "spinach-artichoke-dip",
+        "name": "Spinach and Artichoke Dip",
+        "description": "A creamy and cheesy dip loaded with spinach and artichokes, perfect for parties and gatherings.",
+        "servings": 8,
+        "prepTime": "10 minutes",
+        "cookTime": "20 minutes",
+        "totalTime": "30 minutes",
+        "ingredients": [
+            {
+                "item": "cream cheese, softened",
+                "amount": 8,
+                "unit": "ounces"
+            },
+            {
+                "item": "sour cream",
+                "amount": 0.5,
+                "unit": "cup"
+            },
+            {
+                "item": "mayonnaise",
+                "amount": 0.25,
+                "unit": "cup"
+            },
+            {
+                "item": "grated Parmesan cheese",
+                "amount": 0.5,
+                "unit": "cup"
+            },
+            {
+                "item": "grated mozzarella cheese",
+                "amount": 0.5,
+                "unit": "cup"
+            },
+            {
+                "item": "garlic, minced",
+                "amount": 2,
+                "unit": "cloves"
+            },
+            {
+                "item": "frozen chopped spinach, thawed and squeezed dry",
+                "amount": 10,
+                "unit": "ounces"
+            },
+            {
+                "item": "canned artichoke hearts, drained and chopped",
+                "amount": 14,
+                "unit": "ounces"
+            },
+            {
+                "item": "salt",
+                "amount": 0.25,
+                "unit": "teaspoon"
+            },
+            {
+                "item": "black pepper",
+                "amount": 0.25,
+                "unit": "teaspoon"
+            }
+        ],
+        "instructions": [
+            "Preheat the oven to 350°F (175°C).",
+            "In a large bowl, mix together the cream cheese, sour cream, mayonnaise, Parmesan cheese, mozzarella cheese, and minced garlic until well combined.",
+            "Stir in the chopped spinach and artichoke hearts.",
+            "Season with salt and pepper to taste.",
+            "Transfer the mixture to a baking dish.",
+            "Bake for 20-25 minutes, or until the dip is hot and bubbly.",
+            "Serve warm with crackers, chips, or sliced baguette."
+        ],
+        "notes": "You can also add a pinch of red pepper flakes for a little heat.",
+        "tags": [
+            "dip",
+            "appetizer",
+            "party",
+            "vegetarian"
+        ],
+        "category": "Appetizers",
+        "image": "spinach-artichoke-dip.png",
+        "nutrition": {
+            "calories": 250,
+            "fat": 20,
+            "carbs": 8,
+            "protein": 10
+        },
+        "publishedDate": "2023-07-02",
+        "rating": 4.6
+    },
       {
-        "user": "Sarah Johnson",
-        "rating": 5,
-        "comment": "This is the best apple pie recipe I've ever tried!"
+        "id": "pesto-pasta",
+        "name": "Pesto Pasta",
+        "description": "A quick and flavorful pasta dish with homemade basil pesto sauce.",
+        "servings": 4,
+        "prepTime": "10 minutes",
+        "cookTime": "15 minutes",
+        "totalTime": "25 minutes",
+        "ingredients": [
+          {
+            "item": "pasta (spaghetti or linguine)",
+            "amount": 12,
+            "unit": "ounces"
+          },
+          {
+            "item": "fresh basil leaves",
+            "amount": 2,
+            "unit": "cups"
+          },
+          {
+            "item": "garlic cloves",
+            "amount": 3,
+            "unit": null
+          },
+          {
+            "item": "pine nuts",
+            "amount": 0.25,
+            "unit": "cup"
+          },
+          {
+            "item": "grated Parmesan cheese",
+            "amount": 0.5,
+            "unit": "cup"
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "amount": 0.5,
+            "unit": "cup"
+          },
+          {
+            "item": "salt",
+            "amount": 0.5,
+            "unit": "teaspoon"
+          },
+          {
+            "item": "black pepper",
+            "amount": 0.25,
+            "unit": "teaspoon"
+          }
+        ],
+        "instructions": [
+          "Cook pasta according to package instructions until al dente. Reserve 1 cup of pasta water before draining.",
+          "In a food processor, combine basil leaves, garlic, pine nuts, Parmesan cheese, salt, and pepper. Pulse until finely chopped.",
+          "With the food processor running, slowly pour in the olive oil and process until smooth.",
+          "Toss the cooked pasta with the pesto sauce, adding reserved pasta water as needed to achieve desired consistency.",
+          "Serve hot, garnished with additional Parmesan cheese if desired."
+        ],
+        "notes": "You can also add cooked chicken or shrimp for a heartier meal.",
+        "tags": [
+          "pasta",
+          "italian",
+          "vegetarian",
+          "quick"
+        ],
+        "category": "Main Courses",
+        "image": "pesto-pasta.png",
+        "nutrition": {
+          "calories": 500,
+          "fat": 28,
+          "carbs": 52,
+          "protein": 14
+        },
+        "publishedDate": "2023-07-05",
+        "rating": 4.7
       },
       {
-        "user": "David Lee",
-        "rating": 4,
-        "comment": "Delicious pie, just like my grandma used to make."
+        "id": "greek-salad",
+        "name": "Greek Salad",
+        "description": "A refreshing and healthy salad with Mediterranean flavors.",
+        "servings": 4,
+        "prepTime": "15 minutes",
+        "cookTime": "0 minutes",
+        "totalTime": "15 minutes",
+        "ingredients": [
+          {
+            "item": "romaine lettuce, chopped",
+            "amount": 4,
+            "unit": "cups"
+          },
+          {
+            "item": "cherry tomatoes, halved",
+            "amount": 1,
+            "unit": "cup"
+          },
+          {
+            "item": "cucumber, sliced",
+            "amount": 1,
+            "unit": null
+          },
+          {
+            "item": "red onion, thinly sliced",
+            "amount": 0.5,
+            "unit": null
+          },
+          {
+            "item": "Kalamata olives",
+            "amount": 0.5,
+            "unit": "cup"
+          },
+          {
+            "item": "feta cheese, crumbled",
+            "amount": 0.5,
+            "unit": "cup"
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "amount": 0.25,
+            "unit": "cup"
+          },
+          {
+            "item": "red wine vinegar",
+            "amount": 2,
+            "unit": "tablespoons"
+          },
+          {
+            "item": "dried oregano",
+            "amount": 1,
+            "unit": "teaspoon"
+          },
+          {
+            "item": "salt",
+            "amount": 0.5,
+            "unit": "teaspoon"
+          },
+          {
+            "item": "black pepper",
+            "amount": 0.25,
+            "unit": "teaspoon"
+          }
+        ],
+        "instructions": [
+          "In a large bowl, combine the chopped romaine lettuce, cherry tomatoes, cucumber, red onion, Kalamata olives, and feta cheese.",
+          "In a small bowl, whisk together the olive oil, red wine vinegar, oregano, salt, and pepper to make the dressing.",
+          "Pour the dressing over the salad and toss to coat evenly.",
+          "Serve immediately."
+        ],
+        "notes": "For added protein, you can include grilled chicken or chickpeas.",
+        "tags": [
+          "salad",
+          "greek",
+          "mediterranean",
+          "healthy"
+        ],
+        "category": "Salads",
+        "image": "greek-salad.png",
+        "nutrition": {
+          "calories": 250,
+          "fat": 20,
+          "carbs": 12,
+          "protein": 6
+        },
+        "publishedDate": "2023-07-08",
+        "rating": 4.8
+      },
+      {
+        "id": "bbq-pulled-pork",
+        "name": "BBQ Pulled Pork",
+        "description": "Tender and flavorful slow-cooked pulled pork with a tangy BBQ sauce.",
+        "servings": 8,
+        "prepTime": "15 minutes",
+        "cookTime": "8 hours",
+        "totalTime": "8 hours 15 minutes",
+        "ingredients": [
+          {
+            "item": "pork shoulder",
+            "amount": 4,
+            "unit": "pounds"
+          },
+          {
+            "item": "onion, diced",
+            "amount": 1,
+            "unit": null
+          },
+          {
+            "item": "garlic cloves, minced",
+            "amount": 4,
+            "unit": null
+          },
+          {
+            "item": "BBQ sauce",
+            "amount": 2,
+            "unit": "cups"
+          },
+          {
+            "item": "apple cider vinegar",
+            "amount": 0.25,
+            "unit": "cup"
+          },
+          {
+            "item": "brown sugar",
+            "amount": 2,
+            "unit": "tablespoons"
+          },
+          {
+            "item": "smoked paprika",
+            "amount": 1,
+            "unit": "tablespoon"
+          },
+          {
+            "item": "cumin",
+            "amount": 1,
+            "unit": "teaspoon"
+          },
+          {
+            "item": "salt",
+            "amount": 1,
+            "unit": "teaspoon"
+          },
+          {
+            "item": "black pepper",
+            "amount": 0.5,
+            "unit": "teaspoon"
+          }
+        ],
+        "instructions": [
+          "Place the pork shoulder in a slow cooker.",
+          "In a bowl, mix together the diced onion, minced garlic, BBQ sauce, apple cider vinegar, brown sugar, smoked paprika, cumin, salt, and pepper.",
+          "Pour the sauce mixture over the pork shoulder, making sure it is evenly coated.",
+          "Cover and cook on low for 8-10 hours, or until the pork is tender and easily shreds with a fork.",
+          "Remove the pork from the slow cooker and shred it using two forks, discarding any excess fat.",
+          "Return the shredded pork to the slow cooker and mix it with the remaining sauce.",
+          "Serve the pulled pork on burger buns, tacos, or alongside coleslaw and baked beans."
+        ],
+        "notes": "For a spicier version, add a diced jalapeño or a pinch of cayenne pepper to the sauce mixture.",
+        "tags": [
+          "pork",
+          "bbq",
+          "slow cooker",
+          "dinner"
+        ],
+        "category": "Main Courses",
+        "image": "bbq-pulled-pork.png",
+        "nutrition": {
+          "calories": 450,
+          "fat": 22,
+          "carbs": 18,
+          "protein": 42
+        },
+        "publishedDate": "2023-07-10",
+        "rating": 4.9
+      },
+      {
+        "id": "lemon-blueberry-cake",
+        "name": "Lemon Blueberry Cake",
+        "description": "A moist and tender lemon cake bursting with fresh blueberries.",
+        "servings": 12,
+        "prepTime": "20 minutes",
+        "cookTime": "45 minutes",
+        "totalTime": "1 hour 5 minutes",
+        "ingredients": [
+          {
+            "item": "all-purpose flour",
+            "amount": 2.5,
+            "unit": "cups"
+          },
+          {
+            "item": "baking powder",
+            "amount": 2,
+            "unit": "teaspoons"
+          },
+          {
+            "item": "salt",
+            "amount": 0.5,
+            "unit": "teaspoon"
+          },
+          {
+            "item": "unsalted butter, softened",
+            "amount": 1,
+            "unit": "cup"
+          },
+          {
+            "item": "granulated sugar",
+            "amount": 1.5,
+            "unit": "cups"
+          },
+          {
+            "item": "large eggs",
+            "amount": 4,
+            "unit": null
+          },
+          {
+            "item": "vanilla extract",
+            "amount": 2,
+            "unit": "teaspoons"
+          },
+          {
+            "item": "lemon zest",
+            "amount": 2,
+            "unit": "tablespoons"
+          },
+          {
+            "item": "lemon juice",
+            "amount": 0.25,
+            "unit": "cup"
+          },
+          {
+            "item": "milk",
+            "amount": 1,
+            "unit": "cup"
+          },
+          {
+            "item": "fresh blueberries",
+            "amount": 2,
+            "unit": "cups"
+          }
+        ],
+        "instructions": [
+          "Preheat the oven to 350°F (175°C). Grease and flour a 9-inch Bundt pan.",
+          "In a medium bowl, whisk together the flour, baking powder, and salt.",
+          "In a large bowl, beat the butter and sugar with an electric mixer until light and fluffy.",
+          "Add the eggs one at a time, beating well after each addition.",
+          "Stir in the vanilla extract, lemon zest, and lemon juice.",
+          "Gradually add the flour mixture to the butter mixture, alternating with the milk, until just combined.",
+          "Gently fold in the blueberries.",
+          "Pour the batter into the prepared Bundt pan and smooth the top.",
+          "Bake for 45-50 minutes, or until a toothpick inserted into the center comes out clean.",
+          "Let the cake cool in the pan for 10 minutes, then invert it onto a wire rack to cool completely."
+        ],
+        "notes": "You can also make a lemon glaze by mixing powdered sugar and lemon juice to drizzle over the cooled cake.",
+        "tags": [
+          "cake",
+          "lemon",
+          "blueberry",
+          "dessert"
+        ],
+        "category": "Desserts",
+        "image": "lemon-blueberry-cake.png",
+        "nutrition": {
+          "calories": 350,
+          "fat": 16,
+          "carbs": 48,
+          "protein": 5
+        },
+        "publishedDate": "2023-07-12",
+        "rating": 4.8
+      },
+      {
+        "id": "vegetable-stir-fry",
+        "name": "Vegetable Stir-Fry",
+        "description": "A colorful and healthy vegetable stir-fry with a flavorful sauce.",
+        "servings": 4,
+        "prepTime": "20 minutes",
+        "cookTime": "10 minutes",
+        "totalTime": "30 minutes",
+        "ingredients": [
+          {
+            "item": "broccoli florets",
+            "amount": 2,
+            "unit": "cups"
+          },
+          {
+            "item": "carrot, sliced",
+            "amount": 1,
+            "unit": null
+          },
+          {
+            "item": "red bell pepper, sliced",
+            "amount": 1,
+            "unit": null
+          },
+          {
+            "item": "yellow bell pepper, sliced",
+            "amount": 1,
+            "unit": null
+          },
+          {
+            "item": "zucchini, sliced",
+            "amount": 1,
+            "unit": null
+          },
+          {
+            "item": "onion, sliced",
+            "amount": 1,
+            "unit": null
+          },
+          {
+            "item": "garlic cloves, minced",
+            "amount": 3,
+            "unit": null
+          },
+          {
+            "item": "ginger, grated",
+            "amount": 1,
+            "unit": "tablespoon"
+          },
+          {
+            "item": "vegetable oil",
+            "amount": 2,
+            "unit": "tablespoons"
+          },
+          {
+            "item": "soy sauce",
+            "amount": 3,
+            "unit": "tablespoons"
+          },
+          {
+            "item": "cornstarch",
+            "amount": 1,
+            "unit": "tablespoon"
+          },
+          {
+            "item": "water",
+            "amount": 0.25,
+            "unit": "cup"
+          },
+          {
+            "item": "sesame oil",
+            "amount": 1,
+            "unit": "teaspoon"
+          }
+        ],
+        "instructions": [
+          "In a small bowl, whisk together the soy sauce, cornstarch, water, and sesame oil. Set aside.",
+          "Heat the vegetable oil in a large wok or skillet over medium-high heat.",
+          "Add the minced garlic and grated ginger, and stir-fry for 30 seconds.",
+          "Add the broccoli, carrot, bell peppers, zucchini, and onion to the wok.",
+          "Stir-fry the vegetables for 5-7 minutes, or until they are crisp-tender.",
+          "Pour the sauce mixture into the wok and stir to coat the vegetables.",
+          "Continue cooking for an additional 2-3 minutes, or until the sauce has thickened.",
+          "Serve the vegetable stir-fry hot, with steamed rice or noodles."
+        ],
+        "notes": "You can also add tofu, chicken, or shrimp for additional protein.",
+        "tags": [
+          "vegetarian",
+          "vegan",
+          "stir-fry",
+          "healthy"
+        ],
+        "category": "Main Courses",
+        "image": "vegetable-stir-fry.png",
+        "nutrition": {
+          "calories": 150,
+          "fat": 7,
+          "carbs": 18,
+          "protein": 4
+        },
+        "publishedDate": "2023-07-15",
+        "rating": 4.6
+      },
+      {
+        "id": "classic-tomato-sauce",
+        "name": "Classic Tomato Sauce",
+        "description": "A versatile and flavorful tomato sauce that pairs well with various dishes.",
+        "servings": 6,
+        "prepTime": "10 minutes",
+        "cookTime": "30 minutes",
+        "totalTime": "40 minutes",
+        "ingredients": [
+          {
+            "item": "canned whole peeled tomatoes",
+            "amount": 28,
+            "unit": "ounces"
+          },
+          {
+            "item": "onion, diced",
+            "amount": 1,
+            "unit": null
+          },
+          {
+            "item": "garlic cloves, minced",
+            "amount": 3,
+            "unit": null
+          },
+          {
+            "item": "olive oil",
+            "amount": 2,
+            "unit": "tablespoons"
+          },
+          {
+            "item": "dried oregano",
+            "amount": 1,
+            "unit": "teaspoon"
+          },
+          {
+            "item": "dried basil",
+            "amount": 1,
+            "unit": "teaspoon"
+          },
+          {
+            "item": "salt",
+            "amount": 0.5,
+            "unit": "teaspoon"
+          },
+          {
+            "item": "black pepper",
+            "amount": 0.25,
+            "unit": "teaspoon"
+          }
+        ],
+        "instructions": [
+          "Heat the olive oil in a large saucepan over medium heat.",
+          "Add the diced onion and cook until softened, about 5 minutes.",
+          "Add the minced garlic and cook for an additional minute.",
+          "Stir in the canned tomatoes, oregano, basil, salt, and pepper.",
+          "Bring the sauce to a simmer and cook, stirring occasionally, for 25-30 minutes.",
+          "Use an immersion blender or transfer the sauce to a blender and blend until smooth.",
+          "Taste and adjust the seasoning as needed.",
+          "Serve the sauce over pasta, use it as a pizza topping, or store it in the refrigerator for later use."
+        ],
+        "notes": "For a chunkier sauce, skip the blending step and break up the tomatoes with a wooden spoon.",
+        "tags": [
+          "sauce",
+          "tomato",
+          "italian",
+          "versatile"
+        ],
+        "category": "Sauces, Dressings, and Condiments",
+        "image": "classic-tomato-sauce.png",
+        "nutrition": {
+          "calories": 80,
+          "fat": 5,
+          "carbs": 8,
+          "protein": 2
+        },
+        "publishedDate": "2023-07-18",
+        "rating": 4.8
+      },
+      {
+        "id": "creamy-alfredo-sauce",
+        "name": "Creamy Alfredo Sauce",
+        "description": "A rich and creamy sauce made with butter, heavy cream, and Parmesan cheese.",
+        "servings": 4,
+        "prepTime": "5 minutes",
+        "cookTime": "15 minutes",
+        "totalTime": "20 minutes",
+        "ingredients": [
+          {
+            "item": "unsalted butter",
+            "amount": 0.5,
+            "unit": "cup"
+          },
+          {
+            "item": "heavy cream",
+            "amount": 1,
+            "unit": "cup"
+          },
+          {
+            "item": "grated Parmesan cheese",
+            "amount": 1,
+            "unit": "cup"
+          },
+          {
+            "item": "garlic cloves, minced",
+            "amount": 2,
+            "unit": null
+          },
+          {
+            "item": "salt",
+            "amount": 0.5,
+            "unit": "teaspoon"
+          },
+          {
+            "item": "black pepper",
+            "amount": 0.25,
+            "unit": "teaspoon"
+          }
+        ],
+        "instructions": [
+          "Melt the butter in a saucepan over medium heat.",
+          "Add the minced garlic and cook for 1-2 minutes, until fragrant.",
+          "Pour in the heavy cream and bring the mixture to a simmer.",
+          "Reduce the heat to low and add the grated Parmesan cheese, salt, and pepper.",
+          "Whisk the sauce until the cheese has melted and the sauce is smooth.",
+          "Simmer the sauce for 5-7 minutes, or until it has thickened to your desired consistency.",
+          "Taste and adjust the seasoning as needed.",
+          "Serve the Alfredo sauce over your favorite pasta or use it as a dipping sauce."
+        ],
+        "notes": "For a lighter version, you can substitute half-and-half for the heavy cream.",
+        "tags": [
+          "sauce",
+          "italian",
+          "creamy",
+          "cheese"
+        ],
+        "category": "Sauces, Dressings, and Condiments",
+        "image": "creamy-alfredo-sauce.png",
+        "nutrition": {
+          "calories": 300,
+          "fat": 28,
+          "carbs": 4,
+          "protein": 8
+        },
+        "publishedDate": "2023-07-20",
+        "rating": 4.7
+      },
+      {
+        "id": "honey-mustard-dressing",
+        "name": "Honey Mustard Dressing",
+        "description": "A sweet and tangy dressing perfect for salads or as a dipping sauce.",
+        "servings": 8,
+        "prepTime": "5 minutes",
+        "cookTime": "0 minutes",
+        "totalTime": "5 minutes",
+        "ingredients": [
+          {
+            "item": "Dijon mustard",
+            "amount": 0.25,
+            "unit": "cup"
+          },
+          {
+            "item": "honey",
+            "amount": 0.25,
+            "unit": "cup"
+          },
+          {
+            "item": "apple cider vinegar",
+            "amount": 2,
+            "unit": "tablespoons"
+          },
+          {
+            "item": "olive oil",
+            "amount": 0.5,
+            "unit": "cup"
+          },
+          {
+            "item": "garlic clove, minced",
+            "amount": 1,
+            "unit": null
+          },
+          {
+            "item": "salt",
+            "amount": 0.25,
+            "unit": "teaspoon"
+          },
+          {
+            "item": "black pepper",
+            "amount": 0.125,
+            "unit": "teaspoon"
+          }
+        ],
+        "instructions": [
+          "In a bowl or jar, whisk together the Dijon mustard, honey, apple cider vinegar, minced garlic, salt, and pepper.",
+          "Slowly drizzle in the olive oil while constantly whisking until the dressing is well combined and emulsified.",
+          "Taste and adjust the seasoning or sweetness as needed.",
+          "Use the honey mustard dressing immediately or store it in the refrigerator for up to a week."
+        ],
+        "notes": "For a creamier dressing, add 2 tablespoons of mayonnaise or Greek yogurt.",
+        "tags": [
+          "dressing",
+          "honey mustard",
+          "salad",
+          "dipping sauce"
+        ],
+        "category": "Sauces, Dressings, and Condiments",
+        "image": "honey-mustard-dressing.png",
+        "nutrition": {
+          "calories": 120,
+          "fat": 10,
+          "carbs": 6,
+          "protein": 0
+        },
+        "publishedDate": "2023-07-22",
+        "rating": 4.9
+      },
+      {
+        "id": "pesto-sauce",
+        "name": "Pesto Sauce",
+        "description": "A vibrant and flavorful sauce made with fresh basil, garlic, pine nuts, and Parmesan cheese.",
+        "servings": 4,
+        "prepTime": "10 minutes",
+        "cookTime": "0 minutes",
+        "totalTime": "10 minutes",
+        "ingredients": [
+          {
+            "item": "fresh basil leaves",
+            "amount": 2,
+            "unit": "cups"
+          },
+          {
+            "item": "garlic cloves",
+            "amount": 2,
+            "unit": null
+          },
+          {
+            "item": "pine nuts",
+            "amount": 0.25,
+            "unit": "cup"
+          },
+          {
+            "item": "grated Parmesan cheese",
+            "amount": 0.5,
+            "unit": "cup"
+          },
+          {
+            "item": "extra-virgin olive oil",
+            "amount": 0.5,
+            "unit": "cup"
+          },
+          {
+            "item": "salt",
+            "amount": 0.25,
+            "unit": "teaspoon"
+          },
+          {
+            "item": "black pepper",
+            "amount": 0.125,
+            "unit": "teaspoon"
+          }
+        ],
+        "instructions": [
+          "In a food processor or blender, combine the basil leaves, garlic cloves, pine nuts, Parmesan cheese, salt, and pepper.",
+          "Pulse the ingredients until they are finely chopped and well combined.",
+          "With the food processor running, slowly pour in the olive oil through the feed tube.",
+          "Process the mixture until it forms a smooth and creamy sauce.",
+          "Taste and adjust the seasoning as needed.",
+          "Use the pesto sauce immediately or store it in the refrigerator with a thin layer of olive oil on top to prevent oxidation."
+        ],
+        "notes": "You can also use walnuts or almonds instead of pine nuts for a different flavor profile.",
+        "tags": [
+          "sauce",
+          "pesto",
+          "italian",
+          "basil"
+        ],
+        "category": "Sauces, Dressings, and Condiments",
+        "image": "pesto-sauce.png",
+        "nutrition": {
+          "calories": 200,
+          "fat": 20,
+          "carbs": 2,
+          "protein": 4
+        },
+        "publishedDate": "2023-07-24",
+        "rating": 4.8
+      },
+      {
+        "id": "bbq-sauce",
+        "name": "BBQ Sauce",
+        "description": "A sweet and smoky sauce perfect for grilling or as a condiment.",
+        "servings": 8,
+        "prepTime": "5 minutes",
+        "cookTime": "15 minutes",
+        "totalTime": "20 minutes",
+        "ingredients": [
+          {
+            "item": "ketchup",
+            "amount": 1,
+            "unit": "cup"
+          },
+          {
+            "item": "brown sugar",
+            "amount": 0.5,
+            "unit": "cup"
+          },
+          {
+            "item": "apple cider vinegar",
+            "amount": 2,
+            "unit": "tablespoons"
+          },
+          {
+            "item": "Worcestershire sauce",
+            "amount": 1,
+            "unit": "tablespoon"
+          },
+          {
+            "item": "smoked paprika",
+            "amount": 1,
+            "unit": "teaspoon"
+          },
+          {
+            "item": "garlic powder",
+            "amount": 0.5,
+            "unit": "teaspoon"
+          },
+          {
+            "item": "onion powder",
+            "amount": 0.5,
+            "unit": "teaspoon"
+          },
+          {
+            "item": "salt",
+            "amount": 0.25,
+            "unit": "teaspoon"
+          },
+          {
+            "item": "black pepper",
+            "amount": 0.125,
+            "unit": "teaspoon"
+          }
+        ],
+        "instructions": [
+          "In a saucepan, whisk together the ketchup, brown sugar, apple cider vinegar, Worcestershire sauce, smoked paprika, garlic powder, onion powder, salt, and pepper.",
+          "Bring the mixture to a simmer over medium heat, stirring occasionally.",
+          "Reduce the heat to low and simmer the sauce for 10-15 minutes, or until it has thickened slightly.",
+          "Taste and adjust the seasoning as needed.",
+          "Use the BBQ sauce immediately or let it cool and store it in the refrigerator for up to 2 weeks."
+        ],
+        "notes": "For a spicier sauce, add a pinch of cayenne pepper or hot sauce to taste.",
+        "tags": [
+          "sauce",
+          "bbq",
+          "grilling",
+          "condiment"
+        ],
+        "category": "Sauces, Dressings, and Condiments",
+        "image": "bbq-sauce.png",
+        "nutrition": {
+          "calories": 60,
+          "fat": 0,
+          "carbs": 16,
+          "protein": 0
+        },
+        "publishedDate": "2023-07-26",
+        "rating": 4.7
       }
     ]
-  }
-]

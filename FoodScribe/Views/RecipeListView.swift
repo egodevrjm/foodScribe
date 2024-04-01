@@ -10,33 +10,35 @@ import SwiftUI
 
 struct RecipeListView: View {
     let category: String
-    @State private var recipes: [Recipe] = []
+    let recipes: [Recipe]
+    
+    var filteredRecipes: [Recipe] {
+        recipes.filter { $0.category == category }
+    }
     
     var body: some View {
-        List(recipes) { recipe in
+        List(filteredRecipes) { recipe in
             NavigationLink(destination: RecipeDetailView(recipe: recipe)) {
-                Text(recipe.name)
+                HStack {
+                    Image(uiImage: UIImage(named: recipe.image)!)
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 80, height: 80)
+                        .clipped()
+                        .cornerRadius(8)
+                    
+                    VStack(alignment: .leading) {
+                        Text(recipe.name)
+                            .font(.headline)
+                        
+                        Text(recipe.description)
+                            .font(.subheadline)
+                            .foregroundColor(.gray)
+                            .lineLimit(2)
+                    }
+                }
             }
         }
-        .navigationTitle(category)
-        .onAppear {
-            loadRecipes()
-        }
-    }
-    
-    func loadRecipes() {
-        guard let url = Bundle.main.url(forResource: "recipes", withExtension: "json") else {
-            fatalError("Failed to locate recipes.json file")
-        }
-        
-        do {
-            let data = try Data(contentsOf: url)
-            let decoder = JSONDecoder()
-            recipes = try decoder.decode([Recipe].self, from: data)
-            recipes = recipes.filter { $0.category == category }
-        } catch {
-            print("Failed to decode JSON: \(error)")
-        }
+        .navigationBarTitle(category, displayMode: .inline)
     }
 }
-

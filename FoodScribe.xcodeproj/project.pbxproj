@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		706D0F162BB965940065FEF9 /* FoodScribeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706D0F152BB965940065FEF9 /* FoodScribeApp.swift */; };
-		706D0F182BB965940065FEF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706D0F172BB965940065FEF9 /* ContentView.swift */; };
 		706D0F1A2BB965960065FEF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706D0F192BB965960065FEF9 /* Assets.xcassets */; };
 		706D0F1D2BB965960065FEF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706D0F1C2BB965960065FEF9 /* Preview Assets.xcassets */; };
+		706D0F242BB965AF0065FEF9 /* foodscribe.json in Resources */ = {isa = PBXBuildFile; fileRef = 706D0F232BB965AF0065FEF9 /* foodscribe.json */; };
+		706D0F292BB966F00065FEF9 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706D0F282BB966F00065FEF9 /* Recipe.swift */; };
+		706D0F2B2BB967050065FEF9 /* CategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706D0F2A2BB967050065FEF9 /* CategoryListView.swift */; };
+		706D0F2D2BB967200065FEF9 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706D0F2C2BB967200065FEF9 /* RecipeListView.swift */; };
+		706D0F2F2BB967380065FEF9 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706D0F2E2BB967380065FEF9 /* RecipeDetailView.swift */; };
+		706D0F312BBA00CF0065FEF9 /* AddRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706D0F302BBA00CF0065FEF9 /* AddRecipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		706D0F122BB965940065FEF9 /* FoodScribe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodScribe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		706D0F152BB965940065FEF9 /* FoodScribeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodScribeApp.swift; sourceTree = "<group>"; };
-		706D0F172BB965940065FEF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		706D0F192BB965960065FEF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		706D0F1C2BB965960065FEF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		706D0F232BB965AF0065FEF9 /* foodscribe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = foodscribe.json; sourceTree = "<group>"; };
+		706D0F282BB966F00065FEF9 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		706D0F2A2BB967050065FEF9 /* CategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListView.swift; sourceTree = "<group>"; };
+		706D0F2C2BB967200065FEF9 /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
+		706D0F2E2BB967380065FEF9 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		706D0F302BBA00CF0065FEF9 /* AddRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +62,11 @@
 			isa = PBXGroup;
 			children = (
 				706D0F152BB965940065FEF9 /* FoodScribeApp.swift */,
-				706D0F172BB965940065FEF9 /* ContentView.swift */,
+				706D0F252BB966D00065FEF9 /* Models */,
+				706D0F262BB966DA0065FEF9 /* Views */,
+				706D0F272BB966DF0065FEF9 /* ModelViews */,
 				706D0F192BB965960065FEF9 /* Assets.xcassets */,
+				706D0F232BB965AF0065FEF9 /* foodscribe.json */,
 				706D0F1B2BB965960065FEF9 /* Preview Content */,
 			);
 			path = FoodScribe;
@@ -65,6 +78,32 @@
 				706D0F1C2BB965960065FEF9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		706D0F252BB966D00065FEF9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				706D0F282BB966F00065FEF9 /* Recipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		706D0F262BB966DA0065FEF9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				706D0F2A2BB967050065FEF9 /* CategoryListView.swift */,
+				706D0F2C2BB967200065FEF9 /* RecipeListView.swift */,
+				706D0F2E2BB967380065FEF9 /* RecipeDetailView.swift */,
+				706D0F302BBA00CF0065FEF9 /* AddRecipeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		706D0F272BB966DF0065FEF9 /* ModelViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +166,7 @@
 			files = (
 				706D0F1D2BB965960065FEF9 /* Preview Assets.xcassets in Resources */,
 				706D0F1A2BB965960065FEF9 /* Assets.xcassets in Resources */,
+				706D0F242BB965AF0065FEF9 /* foodscribe.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				706D0F182BB965940065FEF9 /* ContentView.swift in Sources */,
+				706D0F292BB966F00065FEF9 /* Recipe.swift in Sources */,
+				706D0F2F2BB967380065FEF9 /* RecipeDetailView.swift in Sources */,
+				706D0F312BBA00CF0065FEF9 /* AddRecipeView.swift in Sources */,
+				706D0F2D2BB967200065FEF9 /* RecipeListView.swift in Sources */,
+				706D0F2B2BB967050065FEF9 /* CategoryListView.swift in Sources */,
 				706D0F162BB965940065FEF9 /* FoodScribeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +319,8 @@
 				DEVELOPMENT_TEAM = 895Q7MTPTC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to take photos for recipes.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires access to the photo library to select images for recipes.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +350,8 @@
 				DEVELOPMENT_TEAM = 895Q7MTPTC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to take photos for recipes.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires access to the photo library to select images for recipes.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
